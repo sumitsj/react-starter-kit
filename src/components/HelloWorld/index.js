@@ -1,2 +1,2 @@
-import React from 'react';
-export default () => <h1>Hello World</h1>
+import HelloWorld from './HelloWorld.view'
+export default HelloWorld;
