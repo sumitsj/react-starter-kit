@@ -1,0 +1,30 @@
+{
+  "name": "react-starter-kit",
+  "version": "1.0.0",
+  "description": "React application starter kit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumitsj/react-starter-kit.git"
+  },
+  "author": "Sumit Jadhav",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sumitsj/react-starter-kit/issues"
+  },
+  "homepage": "https://github.com/sumitsj/react-starter-kit#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
+  }
+}
