@@ -1,2 +1,3 @@
-import HelloWorld from './HelloWorld.view'
+import HelloWorld from './HelloWorld.view';
+
 export default HelloWorld;
