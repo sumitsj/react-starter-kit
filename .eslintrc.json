@@ -9,7 +9,9 @@
     "plugin:prettier/recommended"
   ],
   "parser": "babel-eslint",
+  "plugins": ["prettier"],
   "rules": {
+    "prettier/prettier": "error",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "react/destructuring-assignment": ["enabled", "always", { "ignoreClassFields": false }]
   }
