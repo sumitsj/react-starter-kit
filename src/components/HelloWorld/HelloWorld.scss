@@ -1,0 +1,9 @@
+@import '../../assets/styles/colors';
+
+.wrapper {
+    background-color: $color-background;
+
+    &.text-color {
+        color: $color-text;
+    }
+}
