@@ -1,0 +1,18 @@
+{
+  "extends": "stylelint-config-recommended",
+  "rules": {
+    "at-rule-no-unknown": null,
+    "block-no-empty": true,
+    "comment-no-empty": true,
+    "property-case": "lower",
+    "selector-pseudo-class-case": "lower",
+    "selector-pseudo-element-case": "lower",
+    "block-closing-brace-newline-after": "always",
+    "block-closing-brace-newline-before": "always",
+    "block-opening-brace-newline-after": "always",
+    "block-opening-brace-space-before": "always",
+    "selector-max-empty-lines": 0,
+    "max-nesting-depth": 3,
+    "length-zero-no-unit": true
+  }
+}
