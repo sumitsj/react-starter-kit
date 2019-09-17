@@ -1,9 +1,28 @@
 # react-starter-kit
 React application starter kit
 
+#### Features
+&nbsp; &nbsp; ✓ Component-based front-end development via [Webpack](https://webpack.github.io/) and [React](https://reactjs.org/) (see [`webpack.config.js`](webpack.config.js))<br>
+&nbsp; &nbsp; ✓ Modern JavaScript syntax ([ES2015](http://babeljs.io/docs/learn-es2015/)+) via [Babel](http://babeljs.io/)<br>
+&nbsp; &nbsp; ✓ Hot Reloading with Webpack's [Hot Module Replacement](https://webpack.js.org/concepts/hot-module-replacement/)<br>
+&nbsp;&nbsp; ✓ Pre-configured [ESLint](https://eslint.org/), [Stylelint](https://stylelint.io/), [Prettier](https://prettier.io/) to keep code more consistent and avoid bugs. **Don't** forget to install respective plugins for your editor to take advantage of these configurations.<br>
+&nbsp; &nbsp; ✓ [Husky](https://github.com/typicode/husky) - to prevent you from bad `git commit`, `git push`<br>
+
 #### Local Development QuickStart:
+
+**Step 1**. Clone the latest version of **React Starter Kit** on your local machine by running:
 ```bash
-npm start
+$ git clone https://github.com/sumitsj/react-starter-kit.git
+```
+
+**Step 2**. Install project dependencies listed in [`package.json`](package.json) files:
+```bash
+$ npm install
+```
+
+**Step 3**. Finally, launch your web app:
+```bash
+$ npm start
 ```
 
 #### The Component Directory
