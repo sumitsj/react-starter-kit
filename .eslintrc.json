@@ -13,6 +13,9 @@
   "rules": {
     "prettier/prettier": "error",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "react/destructuring-assignment": ["enabled", "always", { "ignoreClassFields": false }]
+    "react/destructuring-assignment": ["enabled", "always", { "ignoreClassFields": false }],
+    "import/no-extraneous-dependencies": ["error", {
+      "devDependencies": ["**/setupTests.js", "**/*.test.js"]
+    }]
   }
 }
